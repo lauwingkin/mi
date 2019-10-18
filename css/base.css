@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+}
+
+.hearder{
+    width: 100%;
+    height: 38px;
+    background-color: #262626;
+}
+
+.hearderleft{
+    color: #262626;
+    width:60%;
+    display: inline;
+}
+
+.hearderright{
+    color: #262626;
+    width: 20%;
+    display: inline;
+    position: absolute;
+    right: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.hearderleft a{
+    color: #999999;
+    font-size: 8px;
+    top:8px;
+    text-align:center;
+    line-height:38px;
+
+}
+
+.hearderright a{
+    color: #999999;
+    font-size: 8px;
+    top:8px;
+    line-height:38px;
+    padding: 0 8px;
+}
+
+.block{
+    width: 85%;
+    margin: 0px auto;
+}
+
+.cart{
+    width: 30px;
+    height: 38px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #333333;
+}
+
+.cart img{
+    color: #999999;
+}
+
+.mi{
+    width:  60px;
+    height: 60px;
+    display: inline;
+    float: left;
+    position: relative;
+    top: 15px;
+    /*top:15px;*/
+}
+
+.h1 a{
+    color: black;
+    padding: 15px 15px 15px 15px;
+
+}
+
+.h1.block{
+    height: 90px;
+    width: 85%;
+    margin: 0px auto;
+    line-height:  90px;
+    max-width:  100%;
+}
+
+.h2{
+    width: 85%;
+    height: 480px;
+
+}
+.h2.block img{
+    width: 85%;
+
+    position: absolute;
+
+}
+
+
+.menu a{
+    position: relative;
+    display: block;
+    color: white;
+    font-size: 15px ;
+    height: 45px;
+    left:30px;
+    top:15px;
+    /*align-items: center;*/
+}
+
+.menu{
+    background-color: rgba(100,100,100,0.9);
+    width: 250px;
+    height: 459px;
+    position: relative;
+    z-index: 1;
+}
+
+.arrow{
+
+    height: 20px;
+    width: 20px;
+}
+
+.h3{
+    width: 85%;
+    height: 170px;
+    position: relative;
+    top : 15px;
+
+}
+.h3img{
+    height: 170px;
+    width: 300px;
+
+}
+
+
+.h3 li{
+    background-color: darkgoldenrod;
+    width: 30px;
+    height: 35px;
+}
