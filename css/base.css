@@ -11,16 +11,15 @@ body{
 .hearderleft{
     color: #262626;
     width:60%;
-    display: inline;
+    float:left;
 }
 
 .hearderright{
     color: #262626;
     width: 20%;
-    display: inline;
-    position: absolute;
-    right: 0px;
+    float:right;
 }
+
 
 a{
     text-decoration: none;
@@ -32,7 +31,6 @@ a{
     top:8px;
     text-align:center;
     line-height:38px;
-
 }
 
 .hearderright a{
@@ -119,27 +117,53 @@ a{
 }
 
 .arrow{
-
     height: 20px;
     width: 20px;
 }
 
-.h3{
+.h3.block{
     width: 85%;
-    height: 170px;
-    position: relative;
+    height: 200px;
     top : 15px;
+
+}
+
+.h3b{
+    float: left;
 
 }
 .h3img{
     height: 170px;
     width: 300px;
-
+    padding: 0 0 0 23px;
 }
 
 
-.h3 li{
-    background-color: darkgoldenrod;
+.h3.block ul li{
+
+     　display:inline-block;
+     background-color: darkgoldenrod;
+     width: 79px;
+     height: 84px;
+     float: left;
+     font-size: 10px;
+     list-style-type:none;
+
+ }
+.h3.block ul li img{
+    display: block;
     width: 30px;
-    height: 35px;
+    height: 30px;
+}
+.h3.block ul{
+    width:237px;
+    float: left;
+    top:0px;
+    margin: auto;
+    padding: 0 15px 0 0;
+}
+
+
+.h4{
+
 }
