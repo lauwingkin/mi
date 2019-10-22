@@ -148,12 +148,14 @@ a{
      float: left;
      font-size: 10px;
      list-style-type:none;
+    text-align: center;
 
  }
 .h3.block ul li img{
     display: block;
     width: 30px;
     height: 30px;
+    top:5px;
 }
 .h3.block ul{
     width:237px;
