@@ -16,7 +16,7 @@ body{
 
 .hearderright{
     color: #262626;
-    width: 20%;
+    width: 21%;
     float:right;
 }
 
@@ -52,17 +52,16 @@ a{
 }
 
 .cart{
-    width: 30px;
+    width: 80px;
     height: 38px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    display: inline-block;
+
     background-color: #333333;
 }
 
 .cart img{
     color: #999999;
+    margin-left: 10px;
 }
 
 .mi{
@@ -125,6 +124,8 @@ a{
 }
 .searchword p{
     font-size: 10px;
+    margin-top: -37px;
+    color:#4D4540;
 
 
 
@@ -432,7 +433,41 @@ h5imgll{
     margin-top: -70px;
     margin-right: 20px;
 }
+.h7title{
+    height: 40px;
+}
+.h7tl{
+    font-size: 20px;
+    float: left;
+}
 
+.h7tr{
+    font-size: 15px;
+    float: right;
+}
+.h7img{
+    width: 101%;
+}
+.h7tr img{
+    width: 20px;
+}
+.h7imgl{
+    float: left;
+    width: 296px;
+    height: 285px;
+    background-color: white;
+    margin-right: 13px;
+    margin-bottom: 20px;
+
+
+}
+.h7imgl p{
+   text-align: center;
+    font-size: 15px;
+}
+.h7imgr{
+    margin-right:0px;
+}
 .foot1{
     width: 100%;
     height: 200px;
@@ -440,6 +475,7 @@ h5imgll{
     top: 50px;
 
 }
+
 .footbtn{
     width:20% ;
     float: left;
